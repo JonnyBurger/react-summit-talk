@@ -6,6 +6,7 @@ import {
 	useVideoConfig,
 	Video,
 } from 'remotion';
+import apple from './footage/apple-long.mp4';
 
 export const Apple: React.FC = () => {
 	const frame = useCurrentFrame();
@@ -35,7 +36,7 @@ export const Apple: React.FC = () => {
 		>
 			<Video
 				muted
-				src="http://localhost:5000/apple-long.mp4"
+				src={apple}
 				style={{width: '90%', opacity, transform: `scale(${scale})`}}
 			/>
 		</div>

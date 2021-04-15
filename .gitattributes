@@ -4,7 +4,7 @@ src/footage/codep1-1.mp4 filter=lfs diff=lfs merge=lfs -text
 src/footage/how.MP4 filter=lfs diff=lfs merge=lfs -text
 src/footage/intro.mp4 filter=lfs diff=lfs merge=lfs -text
 src/footage/outro.MP4 filter=lfs diff=lfs merge=lfs -text
-src/footage/screen.mov filter=lfs diff=lfs merge=lfs -text
+src/footage/screen.mp4 filter=lfs diff=lfs merge=lfs -text
 src/footage/why.MP4 filter=lfs diff=lfs merge=lfs -text
 src/footage/codep1-4.mp4 filter=lfs diff=lfs merge=lfs -text
 src/footage/codep1-8.mp4 filter=lfs diff=lfs merge=lfs -text
