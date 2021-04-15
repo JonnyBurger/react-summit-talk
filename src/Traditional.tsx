@@ -1,4 +1,5 @@
 import {interpolate, useCurrentFrame, useVideoConfig, Video} from 'remotion';
+import traditional2 from './footage/traditional2.mp4';
 
 export const Traditional: React.FC = () => {
 	const frame = useCurrentFrame();
@@ -11,7 +12,7 @@ export const Traditional: React.FC = () => {
 	);
 	return (
 		<div>
-			<Video src="http://localhost:5000/traditional2.mp4" style={{opacity}} />
+			<Video src={traditional2} style={{opacity}} />
 		</div>
 	);
 };

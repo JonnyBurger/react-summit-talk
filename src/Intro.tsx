@@ -1,5 +1,6 @@
 import {Video} from 'remotion';
+import intro from './footage/intro.mp4';
 
 export const Intro: React.FC = () => {
-	return <Video src="http://localhost:5000/intro.mp4" />;
+	return <Video src={intro} />;
 };

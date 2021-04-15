@@ -1,9 +1,10 @@
 import {Video} from 'remotion';
+import stair from './footage/stairs.mp4';
 
 export const Stairs: React.FC = () => {
 	return (
 		<div>
-			<Video src="http://localhost:5000/stairs.mp4" />
+			<Video src={stair} />
 		</div>
 	);
 };

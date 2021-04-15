@@ -1,3 +1,9 @@
+My React summit presentation, edited in Remotion!
+
+Note that because I took the footage directly from the camera, this repo is about 10GB big and will take a long time to clone (need Git LFS).
+
+I will add a link once the video has been published by React Summit.
+
 # Remotion video
 
 <p align="center">

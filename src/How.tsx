@@ -1,5 +1,5 @@
 import {interpolate, Sequence, useCurrentFrame, Video} from 'remotion';
-
+import how from './footage/how.mp4';
 export const howlength = 241.5 * 50;
 const howoffset = -400;
 
@@ -12,7 +12,7 @@ export const How: React.FC = () => {
 			durationInFrames={howlength - howoffset}
 			from={howoffset}
 		>
-			<Video src="http://localhost:5000/how.mp4" style={{opacity}} />
+			<Video src={how} style={{opacity}} />
 		</Sequence>
 	);
 };

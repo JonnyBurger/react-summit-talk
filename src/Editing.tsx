@@ -8,6 +8,7 @@ import {
 	Video,
 } from 'remotion';
 import styled from 'styled-components';
+import editing from './footage/editing.mp4';
 import {Slide} from './Slide';
 
 const Banner = styled.div`
@@ -35,7 +36,7 @@ export const Editing: React.FC = () => {
 
 	return (
 		<Slide style={{backgroundColor: 'black'}}>
-			<Video style={{width: '100%'}} src="http://localhost:5000/editing.mp4" />
+			<Video style={{width: '100%'}} src={editing} />
 			<AbsoluteFill>
 				<div style={{position: 'absolute', bottom: 260, width: '100%'}}>
 					<Banner

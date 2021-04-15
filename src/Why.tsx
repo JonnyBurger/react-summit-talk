@@ -1,4 +1,5 @@
 import {Sequence, Video} from 'remotion';
+import why from './footage/why.mp4';
 
 export const ENABLE_WHY = false;
 
@@ -8,7 +9,7 @@ const whyoffset = -450;
 export const Why: React.FC = () => {
 	return (
 		<Sequence durationInFrames={whylength - whyoffset} from={whyoffset}>
-			<Video src="http://localhost:5000/why.mp4" />
+			<Video src={why} />
 		</Sequence>
 	);
 };

@@ -1,4 +1,5 @@
 import {Sequence, Video} from 'remotion';
+import screen3 from './footage/screen3.mp4';
 
 const lengths = [
 	4 * 50 * 60,
@@ -31,9 +32,7 @@ export const SynchronizedCode: React.FC<{
 										height: 1080,
 										width: 1920,
 									}}
-									src={
-										'http://localhost:5000' + ('/codep1-' + (i + 1) + '.mp4')
-									}
+									src={require('./footage/codep1-' + (i + 1) + '.mp4')}
 								/>
 								;
 							</Sequence>
@@ -57,7 +56,7 @@ export const SynchronizedCode: React.FC<{
 								  }
 								: undefined
 						}
-						src="http://localhost:5000/screen3.mp4"
+						src={screen3}
 					/>
 				</Sequence>
 			) : null}

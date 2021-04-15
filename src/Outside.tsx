@@ -1,9 +1,10 @@
 import {Video} from 'remotion';
+import outside from './footage/outside.mp4';
 
 export const Outside: React.FC = () => {
 	return (
 		<div>
-			<Video src="http://localhost:5000/outside.mp4" />
+			<Video src={outside} />
 		</div>
 	);
 };
