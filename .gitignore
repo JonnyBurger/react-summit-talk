@@ -1,0 +1,5 @@
+node_modules
+dist
+.DS_Store
+src/footage/codep1.MP4
+src/footage/codep2.MP4

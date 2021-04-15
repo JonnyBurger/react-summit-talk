@@ -1,0 +1,36 @@
+{
+	"name": "remotion-template",
+	"version": "1.0.0",
+	"description": "My Remotion video",
+	"scripts": {
+		"start": "remotion preview src/index.tsx",
+		"build": "remotion render src/index.tsx Both both.mp4",
+		"upgrade": "remotion upgrade",
+		"server": "ts-node server.tsx",
+		"test": "eslint src --ext ts,tsx,js,jsx && tsc"
+	},
+	"repository": {},
+	"license": "UNLICENSED",
+	"dependencies": {
+		"@remotion/babel-loader": "1.6.0-alpha.6bed117c",
+		"@remotion/bundler": "1.6.0-alpha.6bed117c",
+		"@remotion/cli": "1.6.0-alpha.6bed117c",
+		"@remotion/eslint-config": "1.6.0-alpha.6bed117c",
+		"@remotion/renderer": "1.6.0-alpha.6bed117c",
+		"@types/express": "^4.17.9",
+		"@types/react": "^17.0.0",
+		"@types/styled-components": "^5.1.9",
+		"eslint": "^7.15.0",
+		"express": "^4.17.1",
+		"hack-font": "^3.3.0",
+		"prettier": "^2.2.1",
+		"prettier-plugin-organize-imports": "^1.1.1",
+		"prism-react-renderer": "^1.2.0",
+		"react": "^17.0.1",
+		"react-dom": "^17.0.2",
+		"remotion": "1.6.0-alpha.6bed117c",
+		"styled-components": "^5.2.1",
+		"ts-node": "^9.1.1",
+		"typescript": "^4.1.3"
+	}
+}
